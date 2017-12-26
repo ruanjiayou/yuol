@@ -1,0 +1,310 @@
+﻿/******---全局样式----******/
+h1,h2,h3,h4,h5,h6,p,ul,li,table,td,tr,select,option,div,span,form,body,html{
+  margin:0px;
+  padding:0px;
+}
+input{
+  border:none;
+}
+li{
+  list-style:none;
+}
+body{
+  background:#f8f8f8;
+  font-size:14px;
+  font-family:宋体;
+  line-height:30px;
+}
+a,a:visited{
+  text-decoration:none;
+  color:#000000;
+}
+a:hover{
+ color:#f56350;
+}
+img{
+ border:0px;
+ margin:0px;
+ padding:0px;
+}
+
+/******---头部样式----******/
+#top_bg{
+width:100%;
+height:35px;
+line-height:35px;
+background:#FFFFFF;
+border-bottom:1px #CCCCCC solid;
+}
+#top{
+width:1000px;
+margin:0 auto;
+}
+#welcome{
+width:500px;
+text-align:left;
+float:left;
+}
+#link{
+width:500px;
+text-align:right;
+float:right;
+}
+#banner{
+width:1000px;
+margin:0 auto;
+height:120px;
+}
+#logo{
+width:300px;
+height:70px;
+margin-top:30px;
+margin-left:10px;
+float:left;
+}
+#text{
+width:240px;
+height:70px;
+float:right;
+margin-top:30px;
+margin-right:10px;
+}
+#nav{
+width:1000px;
+margin:0 auto;
+height:50px;
+line-height:50px;
+font-size:20px;
+}
+#nav_li{
+width:600px;
+float:left;
+text-align:left;
+}
+#nav_li ul li{
+float:left;
+margin-right:10px;
+}
+#search{
+width:300px;
+float:right;
+text-align:right;
+}
+#search_key{
+height:30px;
+width:200px;
+line-height:30px;
+border:#CCCCCC 1px solid;
+padding:0px;
+text-indent:2px;
+}
+#search_btn{
+height:30px;
+width:40px;
+line-height:30px;
+border:#CCCCCC 1px solid;
+background:#CCCCCC;
+}
+
+/******---主体内容样式----******/
+#pic{
+width:1000px;
+margin:0 auto;
+margin-bottom:20px;
+position:relative;
+}
+#pic ul li{
+position:absolute;
+width:245px;
+padding-top:5px;
+background:#FFFFFF;
+}
+
+/*
+#pic ul li{
+width:232px;
+margin-right:16px;
+margin-top:15px;
+border:1px #CCCCCC solid;
+border-top:none;
+float:left;
+}
+*/
+#pic ul li .img{
+text-align:center;
+border-bottom:1px #CCCCCC dashed;
+}
+#pic ul li.info{
+border-top:1px #CCCCCC dashed;
+}
+#pic ul li .info_l{
+margin-top:10px;
+margin-left:5px;
+width:40px;
+float:left;
+}
+#pic ul li .info_l img{
+width:40px;
+height:40px;
+}
+#pic ul li .info_r{
+width:175px;
+float:right;
+line-height:25px;
+margin-top:5px;
+}
+#bottom{
+text-align:center;
+width:1000px;
+color:#FF3300;
+position:absolute;
+height:50px;
+line-height:50px;
+border-top:2px #FF3300 dashed;
+}
+/******---尾部样式----******/
+#footer{
+position:relative;
+top:20px;
+width:100%;
+margin:0 auto;
+text-align:center;
+padding:10px 0;
+border-top:3px #999999 solid;
+}
+/******---列表页样式----******/
+#pic_row .row{
+margin:20px auto;
+background:#FFFFFF;
+padding:10px;
+padding-bottom:0px;
+width:980px;
+}
+#pic_row .row_l{
+width:360px;
+float:left;
+}
+#pic_row .row_r{
+width:596px;
+float:right;
+}
+#pic_row .info{
+height:90px;
+}
+#pic_row .desc{
+height:45px;
+background:#f2f0f0;
+line-height:22px;
+padding:0 5px;
+font-size:12px;
+text-indent:24px;
+}
+#pic_row .link{
+color:#FF0000;
+line-height:40px;
+}
+
+#pic_row .info_img{
+width:80px;
+float:left;
+}
+#pic_row .info_img img{
+width:80px;
+height:80px;
+
+}
+#pic_row .info_span{
+width:260px;
+float:right;
+line-height:25px;
+}
+#pic_row .info_span p{
+text-indent:16px;
+}
+#pic_row .info_span span{
+float:left;
+width:65px;
+text-align:center;
+text-indent:0px;
+}
+#pic_row .row_r ul li{
+width:80px;
+float:left;
+height:80px;
+margin-right:5px;
+margin-bottom:5px;
+}
+#pic_row .row_r ul li img{
+width:80px;
+height:80px;
+}
+/******---内容页样式----******/
+#show {
+width:980px;
+padding:10px;
+margin:0 auto;
+min-height:1380px;
+}
+#show_l{
+width:252px;
+float:left;
+padding:5px;
+background:#FFFFFF;
+}
+#relative h2{
+height:30px;
+line-height:30px;
+font-size:18px;
+text-indent:5px;
+border-bottom:1px #CCCCCC dashed;
+}
+#relative ul li{
+width:80px;
+height:80px;
+float:left;
+margin:2px;
+}
+#relative ul li img{
+width:80px;
+height:80px;
+}
+#show_r{
+width:700px;
+float:right;
+background:#FFFFFF;
+padding:5px;
+}
+#pic_show{
+padding-top:5px;
+text-align:center;
+width:690px;
+margin:10px auto;
+background:#CCCCCC;
+}
+#pic_show p{
+text-align:left;
+line-height:40px;
+background:#CCCCCC;
+width:670px;
+margin:0 auto;
+padding:0 10px;
+}
+#pic_show p span{
+float:right;
+}
+#pic_remark{
+width:690px;
+margin:10px auto;
+border:1px #CCCCCC solid;
+}
+#pic_remark h2{
+text-indent:5px;
+font-size:18px;
+border-bottom: 1px #CCCCCC dashed;
+}
+#pic_remark ul li{
+width:96%;
+margin:0 auto;
+border-bottom: 1px #CCCCCC dashed;
+margin-bottom:5px;
+}

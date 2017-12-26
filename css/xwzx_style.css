@@ -1,0 +1,113 @@
+/*统一定义*/
+*{margin:0;padding:0;border:0;}
+div {margin:0 auto;position:relative;}
+.right {float:right;}
+.left {float:left;}
+.clear { clear:both;height:0;}
+.po_ab_r { position:absolute;right:20px;}
+li,p {font-size:18px;_font-size:18px;line-height:25px;text-indent: 1.5em;overflow:hidden;}
+li ,ul { list-style:none;}
+a ,a:hover,a:visited{text-decoration:none;color:#000000;_font-size:18px;}
+#img5 {width:685px;_width:665px;height:112px;}
+img{border:none;}
+body{background:#fcfbfc;}
+/*背景图片*/
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12 {width:969px; overflow:hidden;} 
+.img3,.img4,.img5,.img6 {width:685px;_width:665px;}
+.img2 {background-image: url(../images/xxzl_images/2.gif); background-repeat:no-repeat;height:286px;width:470px;}
+.img3 {background-image: url(../images/xxzl_images/3.gif); background-repeat:no-repeat;height:93px;}
+.img4 {background-image: url(../images/xxzl_images/4.gif); background-repeat:no-repeat;height:143px;}
+.img5 {background-image: url(../images/xxzl_images/5.gif); background-repeat:no-repeat;height:112px;}
+.img6 {background-image: url(../images/xxzl_images/6.gif); background-repeat:no-repeat;height:173px;}
+.img7 {background-image: url(../images/xxzl_images/7.gif); background-repeat:no-repeat;height:177px;}
+.img8 {background-image: url(../images/xxzl_images/8.gif); background-repeat:no-repeat;height:299px;}
+.img9 {background-image: url(../images/xxzl_images/9.gif); background-repeat:no-repeat;height:135px;}
+.img10 {background-image: url(../images/xxzl_images/10.gif); background-repeat:no-repeat;height:24px;}
+.img11 {background-image: url(../images/xxzl_images/11.gif); background-repeat:no-repeat;height:130px;}
+.kjtd {background-image: url(../images/xxzl_images/kjtd.gif); background-repeat:no-repeat;height:522px;width:244px;padding:0 20px;}
+
+/*顶部*/
+#top_1_bg{background:#669933;color:#fff;width: 100%;height:35px;line-height:35px;font-size:14px;}
+#top_1 {width:1000px;margin:0 auto;}
+#top_1 a{color:#fff;}
+#welcome{float:left;width:500px;}
+#links{float:right;width:500px;text-align:right;}
+#top_2 {width:1000px;margin:0 auto;}
+#top_2 div{float:left;width:280px;}
+#top_2 ul{float:right;width:720px;margin-top:20px;}
+#top_2 ul li {float:left;line-height:60px; width:120px;font-size:20px;text-align:center;}
+#top_2 h1 {font-size:38px;width:178px;margin-left:29px; float:left;}
+#top_re {width:969px;}
+#logo ,#cdzx_h1 {float:left;}
+#zhuce {float:right; line-height:40px;_font-size:18px;}
+#banner {background-image: url(../images/xxzl_images/banner.gif);height: 400px;}
+
+#footer {background:#e4e4e4;text-align:center;padding: 35px 0;_font-size:18px;}
+/*index_1*/
+#index_1 {width:969px;margin-top:15px;}
+#index_1 li {width:470px;height:26px;}/*防li 被撑开*/
+#hdp {height:286px;width:499px;float:left;}
+#hdp img {width:483px;height:266px;padding:10px 8px;}
+#jxdt {float:right;padding-top:73px;height:213px}
+#jxdt li {line-height:26px;text-indent: 47px;}
+
+/*index_2    .img4*/
+#index_2 {width:969px;_margin-top:-12px}
+#index_2 .left {width:660px;heigh:660px;}
+#index_2 .right {width:284px;height:440px;_width:6px;margin-left:-13px;_margin-right:-18px;}
+
+#index2 li {width:330px;height:24px;}/*防li 被撑开*/
+.cdyw,.jyxx,.jwtz,.xgzx,.cdyw_h2,.jyxx_h2,.jwtz_h2,.xgzx_h2 {width:310px;}
+.cdyw,.jyxx,.jwtz,.xgzx {height:200px; margin:10px;float:left;}
+#cdyw,#jyxx,#jwtz,#xgzx {width:330px;float:left;}
+#cdyw,#jyxx {margin-top:3px;}
+#cdyw,#jwtz {margin-left:10px;}
+#cdyw li,#jyxx li {line-height:27px;}
+#jwtz,#xgzx {margin-top:15px;}
+#jwtz li,#xgzx li{line-height:24.4px;overflow:hidden;}
+#jyxx,#xgzx {margin-left:15px;_width:295px;}
+#xgzx img {width:100px;height:100px;}
+#xgzx p {width:100px; overflow:hidden;}
+#xgzx_l {width:100px;height:200px;float:left;}
+#xgzx_l p {height:50px;}
+#xgzx_r {height:200px; margin-left: 115px;width: 175px;}
+
+/*教学动态 more 长大要闻more  到  学工在线的more        .img 3*/
+#cdyw_more,#jyxx_more,#jwtz_more,#xgzx_more,#jxdt_more {width:54px;height:53px;top: 22px;position:absolute;}
+#cdyw_more {left: 232px;}
+#jyxx_more {left: 581px;}
+#jwtz_more {left: 231px;}
+#xgzx_more {left: 585px;}
+#jxdt_more {left:377px;height:46px;top:16px;}
+/*index_2 over*/
+
+/*学生空间 后面*/
+#xskj_img ,#xskj_img img {width:960px;height:120px;}
+#xhxw, #stgg, #twhd, #jydt {float:left;}
+#xhxw, #twhd {width:405px;}
+#xhxw_img, #twhd_img,#xhxw_img  img, #twhd_img img {width:100px;height:120px;overflow:hidden;float:left;padding-right:50px;}
+#xhxw_img {margin-top:45px;}
+#twhd_img {margin-top:6px;}
+#stgg, #jydt {width:414px;}
+#xhxw, #stgg {margin-top:10px;}
+#twhd, #jydt {margin-top:8px;}
+#index2 li {width:405px;height:25px;}/*防li 被撑开*/
+
+/*学会新闻more  到  菁英动态的more      .img5*/
+#xhxw_more,#stgg_more,#twhd_more,#jydt_more {height:50px;width:128px;position:absolute;}
+#xhxw_more {top:130px;left:320px;}
+#stgg_more {top:130px;left:820px;}
+#twhd_more {width:188px;bottom:0;left:260px;}
+#jydt_more {bottom:0;left:820px;}
+
+/*让各栏目h2隐藏，加h2是利于浏览器搜索*/
+h2 {display:none;}
+
+/*快捷通道*/
+#weixin_qq {width:224px; height: 141px;padding: 103px 20px 4px;}
+#weixin_qq img {width:60px;height:60px;}
+#weixin_qq li {width:70px;float:left;text-indent:0;}
+
+#lianjie img {width:75px;height:25px;}
+#lianjie ul {float:left;}
+#lianjie li {padding:6px;text-indent:1.25em;}

@@ -1,0 +1,438 @@
+﻿/******---全局样式----******/
+h1,h2,h3,h4,h5,h6,p,ul,li,table,td,tr,select,option,div,span,form,body,html{
+  margin:0px;
+  padding:0px;
+}
+input{
+  border:none;
+}
+li{
+  list-style:none;
+}
+body{
+  color:#fffff;
+  font-size:14px;
+  font-family:宋体;
+  line-height:30px;
+}
+a,a:visited{
+  text-decoration:none;
+  color:#474646;
+}
+a:hover{
+ color:#f38324;
+}
+img{
+ border:0px;
+ margin:0px;
+ padding:0px;
+}
+/******---头部样式----******/
+#top_bg{
+background:url(../images/xyes_images/top_bg.jpg) repeat-x;
+}
+#top{
+height:40px;
+line-height:40px;
+width:1000px;
+margin:0 auto;
+color:#FFFFFF;
+}
+#top a{
+color:#FFFFFF;
+}
+#top a:hover{
+text-decoration:underline;
+}
+#welcome{
+width:500px;
+float:left;
+}
+#link{
+width:500px;
+float:right;
+text-align:right;
+}
+#banner{
+  width:1000px;
+  margin:0 auto;
+  height:75PX;
+  background:url(../images/xyes_images/banner_bg.jpg) no-repeat center center;
+ }
+#logo{
+float:left;
+}
+#search{
+margin-top:20px;
+float:right;
+padding:3px 10px;
+background:#f86a1d;
+}
+#search_key{
+height:20px;
+line-height:20px;
+}
+#search_btn{
+color:#f86a1d;
+font-weight:bold;
+background:#f86a1dl;
+padding:2px;
+}
+#nav{
+  margin:0 auto;
+  width:1000px;
+  height:55px;
+  line-height:40px;
+  background:url(../images/xyes_images/nav.jpg) no-repeat center center;
+}
+#nav_li{
+float:right;
+margin-right:60px;
+}
+#nav ul li{
+  width:108px;
+  float:left;
+  text-align:center;
+}
+#nav a {
+  font-size:16px;
+  font-weight:bold;
+}
+#nav a:hover {
+ color:#f38324;
+}
+
+/******---首页内容样式----******/
+#content{
+  margin:0 auto;
+  width:1000px;
+  overflow:hidden;
+}
+#content h2{
+height:40px;
+line-height:40px;
+font-size:20px;
+color:#462e09;
+font-family:Arial, Helvetica, sans-serif;
+}
+#content .xyes_span {
+margin-bottom:20px;
+}
+.xyes_span div{
+background:#f4f3f5;
+padding:5px;
+overflow:hidden;
+}
+#con_l{
+width:700px;
+float:left;
+}
+#zxes {
+height:645px;
+}
+#zxes p{
+text-indent:5px;
+}
+#zxes .buy{
+float:right;
+margin-right:10px;
+}
+#zxes .zx_price{
+float:right;
+color:#FF0000;
+font-weight:bold;
+}
+#zxes ul li{
+height:290px;
+width:220px;
+background:#FFFFFF;
+margin:5px;
+float:left;
+}
+#zxes ul li .picture{
+text-indent:0;
+text-align:center;
+margin-bottom:5px;
+}
+#zxes ul li .picture img{
+margin-top:5px;
+height:220px;
+width:210px;
+}
+#zxqg div ul li{
+width:330px;
+
+margin:5px;
+float:left;
+}
+#zxqg .info{
+height:70px;
+border-bottom:2px #CCCCCC solid;
+}
+#zxqg .info_img{
+width:80px;
+float:left;
+}
+#zxqg .info_txt{
+width:220px;
+float:right;
+}
+#zxqg .info_txt .other{
+background:url(../images/xyes_images/li.jpg) no-repeat 0 center;
+width:230px;
+}
+#zxqg .info_txt .title{
+width:150px;
+border-bottom:2px #CC0000 dashed;
+}
+#zxqg .info_txt p span{
+width:75px;
+float:left;
+display:block;
+text-indent:24px;
+}
+#zxqg .desc{
+height:86px;
+}
+#zxzl div{
+width:680px;
+padding:10px;
+}
+#zxzl  #zhao{
+background:url(../images/xyes_images/swzl1.jpg) no-repeat 0px 6px;
+}
+#zxzl  #ling{
+background:url(../images/xyes_images/swzl2.jpg) no-repeat 0px 6px;
+}
+#zxzl ul li{
+height:36px;
+line-height:36px;
+margin-left:50px;
+margin-right:5px;
+background:#FFFFFF;
+margin-bottom:2px;
+}
+#zxzl ul li strong a{
+color:#FF6600;
+font-size:16px;
+font-weight:bold;
+}
+#con_r{
+width:280px;
+float:right;
+}
+#con_r .pmzx_img{
+width:74px;
+height:74px;
+float:left;
+}
+#con_r .pmzx_txt{
+width:170px;
+height:74px;
+float:right;
+line-height:25px;
+}
+#spfl  ul li{
+height:60px;
+border-bottom:1px #FF9900 dashed;
+}
+#spfl  ul li h3{
+width:40px;
+font-size:16px;
+float:left;
+text-align:center;
+}
+#spfl  ul li p{
+width:220px;
+float:right;
+}
+#tbtj ul li{
+float:left;
+width:132px;
+height:70px;
+margin:1px;
+}
+#tbtj ul li img{
+width:132px;
+height:70px;
+}
+#gwfx #form{
+height:142px;
+font-size:12px;
+background:url(../images/xyes_images/form_bg.jpg) repeat-x 20px bottom;
+margin-bottom:5px;
+}
+#gwfx #form p span{
+float:right;
+}
+#gwfx #form p span a{
+color:#FF6600;
+}
+#gwfx #form #word{
+height:60px;
+line-height:20px;
+width:260px;
+}
+#gwfx #form #submit{
+background:#CC0000;
+padding:2px;
+margin-top:3px;
+color:#FFFFFF;
+font-weight:bold;
+}
+#gwfx .fx_img{
+width:65px;
+height:65px;
+float:left;
+margin-top:4px;
+}
+
+#gwfx .fx_txt{
+width:180px;
+height:72px;
+float:right;
+line-height:22px;
+}
+#gwfx .fx_txt p span{
+float:right;
+margin-right:8px;
+color:#FF6600;
+}
+#gwfx ul li{
+overflow:hidden;
+}
+/******---尾部样式----******/
+#footer{
+  margin:0 auto;
+  width:100%;
+  padding:10px;
+  color:#FFFFFF;
+  text-align:center;
+  background:url(../images/xyes_images/footer_bg.jpg) repeat-x;
+}
+#footer a{
+color:#FFFFFF;
+}
+/******---列表页样式----******/
+#list_l{
+width:700px;
+float:left;
+background:#f4f3f5;
+}
+#list_l #list_ad{
+width:680px;
+margin:10px auto;
+height:157px;
+}
+#list_l #list_ad img{
+width:680px;
+height:157px;
+}
+#list_li ul li{
+background:#FFFFFF;
+height:150px;
+width:680px;
+margin:0 auto;
+margin-bottom:10px;
+overflow:hidden;
+}
+#list_li ul li .list_li_img{
+height:150px;
+width:150px;
+float:left;
+text-align:center;
+}
+#list_li ul li .list_li_img img{
+height:120px;
+width:120px;
+margin-top:15px;
+}
+#list_li ul li .list_li_txt{
+height:200px;
+width:520px;
+float:right;
+}
+#list_li ul li p span{
+float:right;
+margin-right:20px;
+}
+/******---内容页样式----******/
+#content_l{
+width:700px;
+float:left;
+background:#f4f3f5;
+padding:10px 0;
+}
+#content_l #content_ad{
+width:680px;
+margin:10px auto;
+height:157px;
+}
+#content_l #content_ad img{
+width:680px;
+height:157px;
+}
+#con_all{
+width:680px;
+margin:10px auto;
+background:#FFFFFF;
+}
+#con_all_img{
+width:250px;
+float:left;
+height:250px;
+text-align:center;
+margin-top:10px;
+}
+#con_all_txt{
+width:420px;
+float:right;
+}
+#con_all_img img{
+width:230px;
+height:230px;
+}
+#con_des{
+padding:0 10px;
+width:660px;
+margin:10px auto;
+background:#FFFFFF;
+min-height:300px;
+clear:both;
+}
+#con_des p{
+text-indent:28px;
+}
+#con_des .attention{
+margin-top:5px;
+color:#FF6600;
+text-indent:0;
+}
+#con_remark{
+padding:0 10px;
+width:660px;
+margin:10px auto;
+background:#FFFFFF;
+}
+#con_remark p span{
+float:right;
+}
+#con_others{
+padding:0 10px;
+width:660px;
+margin:0px auto;
+margin-right:10px auto;
+background:#FFFFFF;
+}
+#con_others ul li{
+width:157px;
+height:190px;
+float:left;
+margin:5px 0;
+margin:4px;
+text-align:center;
+}
+#con_others ul li img{
+width:157px;
+height:160px;
+}
